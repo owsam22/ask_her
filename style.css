@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(213, 169, 176);
+}
+.main_coutainer
+{
+    background-color: rgb(208, 129, 129);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 100vh;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#ask_gif
+{
+    margin-top: 5%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#ask_gif img {
+    height: 60%;
+    border-radius: 15px; 
+}
+
+#text
+{
+    margin-top: 3%;
+    font-size: 50px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    gap: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: azure;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7675;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    transition: 0.2s ease;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Button</title>
+    <style>
+        body {
+    background-color: rgb(213, 169, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main_container {
+    background-color: rgb(208, 129, 129);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+#ask_gif img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+#text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Adds space between buttons */
+}
+
+.btn, .move {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7675;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    
+}
+.container {
+    position: relative; /* This ensures the button moves within this area */
+    height: 150px; /* Give enough space for movement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.move {
+    position: absolute; /* Enables movement */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div id="ask_gif">
+            <img src="https://i.pinimg.com/originals/81/3d/7f/813d7f6de8f899263a05df8492a3a670.gif" alt="gif">
+            <div id="text">
+                <strong>~ek baar aur soch lo</strong>
+            </div>
+            <div class="container">
+                <a href="final.html" class="btn">Yes</a>
+                <a href="" class="move">NO</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
