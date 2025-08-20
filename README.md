@@ -14,7 +14,7 @@ This page is designed as a **cute proposal site** that you can send to your crus
 ---
 
 ## 🚀 Demo
-👉 [**Live Demo**](https://owsam22.github.io/ask_her)  
+👉 [**click to see**](https://owsam22.github.io/ask_her)  
 
 Want to try it yourself?  
 Send this to **your crush** and see their reaction! ❤️  
